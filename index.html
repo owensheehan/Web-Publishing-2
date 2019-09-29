@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <LINK rel="stylesheet" type="text/css" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="index.html">Exmouth View Hotel</a>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html">Home</a></li>
+                <LI class="dropdown">
+                    <A class="dropdown-toggle" data-toggle="dropdown" HREF="#">Book Now<SPAN class="caret"></SPAN></A>
+                    <UL class="dropdown-menu">
+                        <LI><A HREF="#" data-toggle="modal" data-target="#booking">Book Online</A></LI>
+                        <LI><A HREF="https://www.tripadvisor.ie/Hotel_Review-g186259-d739145-Reviews-Exmouth_View_Hotel-Torquay_English_Riviera_Devon_England.html">TripAdvisor</A></LI>
+                                 
+                        <LI><A HREF="about.html">Call Us</A></LI>
+                    </UL>
+                </LI>
+
+                <li><a href="#">About us</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="https://www.facebook.com/Exmouth-View-Hotel-420275181333695/?rf=199781783536436">My FB</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<DIV class="container-fluid">
+    <DIV class="row">
+        <DIV class="col-sm-8">
+            <section>
+                <button class="btn btn-default" data-toggle="collapse" data-target="#demo">Expand Section</button>
+
+                <div id="demo" class="collapse">
+                    <p>This is a paragraph</p>
+                    <p>This is a paragraph</p>
+                    <p>This is a paragraph</p>
+                    <p>This is a paragraph</p>
+                    <p>This is a paragraph</p>
+                </div>
+            </section>
+            
+            <div id="booking" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <h1>Book on-Line</h1>
+							<p>Click on an image to book on-line</p>
+							<A href="http://www.trivago.co.uk/?iPathId=40853&iGeoDistanceItem=519681&aDateRange%5Barr%5D=2016-05-22&aDateRange%5Bdep%5D=2016-05-23&iRoomType=7&cpt=51968102&iViewType=0&bIsSeoPage=false&bIsSitemap=false&"><img src="trivago_logo.png" alt="Trivago"></A>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+           
+
+        </DIV>
+        <DIV class="col-sm-4">
+            <DIV class="embed-responsive embed-responsive-16by9">
+               <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1xJzSrSZbl7YyG8uMCH1hnUmfawQ" width="640" height="480"></iframe>
+            </DIV>
+        </DIV>
+    </DIV>
+</DIV>
+</body>
